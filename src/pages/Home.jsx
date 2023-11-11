@@ -62,7 +62,7 @@ const Home = () => {
               className="blue-gradient_text"
               onClick={() => window.open("https://github.com/adamalrasi")}
             >
-              Github/adamalrasi⤴
+              Github/adamalrasi
             </NavLink>
           </p>
         </div>
