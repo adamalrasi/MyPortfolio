@@ -100,8 +100,14 @@ const Home = () => {
                     style={{ margin: 0 }}
                   >
                     <span className="text-black-800/50 font-normal text-sm">
-                      {experience.company_name}
-                      {experience.github}
+                      <NavLink onClick={() => window.open(experience.link)}>
+                        {experience.company_name}
+                      </NavLink>
+                      <NavLink
+                        onClick={() => window.open(experience.githubLink)}
+                      >
+                        {experience.github}
+                      </NavLink>
                     </span>
                   </p>
                 </div>
