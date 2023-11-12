@@ -6,4 +6,4 @@ Software Engineer based in United Kingdom, I have experience in front-end and ba
 <br>
 <br>
 
-![image](https://github.com/adamalrasi/MyPortfolio/assets/147779056/fe452f73-484e-4475-9c9f-440113f8c54a)
+![image](https://github.com/adamalrasi/MyPortfolio/assets/147779056/d25d7659-bfa4-4201-9495-e3250293b4f0)
