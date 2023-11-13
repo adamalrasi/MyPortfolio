@@ -108,16 +108,42 @@ export const skills = [
     type: "Frontend",
   },
 ];
+/*
+
+React -
+icon: react,
+    iconBg: "#d7f7F5",
+Js -
+icon: javascript,
+    iconBg: "#f0db4e",
+Node - 
+ icon: nodejs,
+    iconBg: "#b7e4c7",
+Express - 
+icon: express,
+    iconBg: "#a2d2ff",
+*/
 
 export const experiences = [
+  {
+    title: "Team Project: Big Week 4 Project",
+    company_name: "Visit Demo",
+    github: " | Github Docs",
+    link: "",
+    githubLink: "",
+    icon: react,
+    iconBg: "#d7f7F5",
+    date: "Tech Stack: JavaScript, HTML/CSS, Figma/FigJam, UI/UX",
+    points: ["Team Members: ...", "Still in Development..."],
+  },
   {
     title: "AdamAi OpenAi Image Generator",
     company_name: "Visit Website ",
     github: " | Github Docs",
     link: "https://adamaiimage.adamalrasi.com/",
     githubLink: "https://github.com/adamalrasi/AdamAi__OpenAi-Image-Generator",
-    icon: react,
-    iconBg: "#d7f7F5",
+    icon: javascript,
+    iconBg: "#f0db4e",
     date: "Tech Stack: React, OpenAi, Dall-E, TailwindCSS",
     points: [
       "Generate images of my pixel doing whatever you like. Whether it's fighting off zombies or riding a dragon, the choice is yours.",
@@ -126,9 +152,50 @@ export const experiences = [
     ],
   },
   {
+    title: "Full Stack Dashboard",
+    company_name: "Visit Website ",
+    github: " | Github Docs",
+    link: "https://fullstackdashboard.adamalrasi.com/",
+    githubLink: "https://github.com/adamalrasi/FullStack__React-Dashboard",
+    icon: javascript,
+    iconBg: "#f0db4e",
+    date: "Tech Stack: React, TailwindCSS, MongoDB, Node.js, Express.js",
+    points: ["Still in Development..."],
+  },
+  {
+    title: "Team Project: Bootcamper Journal App",
+    company_name: "Visit Youtube Demo",
+    github: " | Github Docs",
+    link: "https://youtu.be/Tm1qazjHXms",
+    githubLink: "https://github.com/adamalrasi/Bootcamper-Journal",
+    icon: nodejs,
+    iconBg: "#b7e4c7",
+    date: "Tech Stack: JavaScript, HTML/CSS, Figma/FigJam, UI/UX, MySQL, Node.js, Express.js, Jest",
+    points: [
+      "Team Members: Wendy Richardson, Jordan Walters, Katarzyna Baginska, Matthew Kirke, James Diffey",
+      "Mobile-first application aims to help bootcampers quickly reflect on their day with five reflection questions, helping them to maintain a healthy work / rest balance.",
+      "Enter one day's journal entry, display previous day's journal entry, functioning requires a declared Secret User ID.",
+      "The journal history log displays for the previous day's journal when the document is loaded, and is updated when the submission button is pressed.",
+    ],
+  },
+  {
+    title: "UAE Real Estate Website",
+    company_name: "Visit Website ",
+    github: " | Github Docs",
+    link: "https://realestateuae.adamalrasi.com/",
+    githubLink: "https://github.com/adamalrasi/UAERealEstate__RapidAPI-Website",
+    icon: javascript,
+    iconBg: "#f0db4e",
+    date: "Tech Stack: Vite, React, RapidAPIs, TailwindCSS",
+    points: ["Still in Development..."],
+  },
+  {
     title: "AdamAi Ultimate Article Summarizer",
     company_name: "Visit Website ",
     github: " | Github Docs",
+    link: "https://adamaiarticle.adamalrasi.com/",
+    githubLink:
+      "https://github.com/adamalrasi/AdamAi__Ultimate-Article-Summarizer/",
     icon: javascript,
     iconBg: "#f0db4e",
     date: "Tech Stack: React, TailwindCSS, OpenAI, RapidAPI",
@@ -138,22 +205,11 @@ export const experiences = [
     ],
   },
   {
-    title: "AdamAi Funniest Coding Ai ChatBot",
-    company_name: "Visit Website ",
-    github: " | Github Docs",
-    icon: nodejs,
-    iconBg: "#b7e4c7",
-    date: "Tech Stack: OpenAI, JavaScript, Node.js, Express.js, HTML/CSS",
-    points: [
-      "AdamAi is a language model AI developed with advanced technology to understand and generate human-like text. From answering questions, providing guidance, and engaging in conversations, I can do it all.",
-      "Adam Ai can analyze your code, spot potential bugs, suggest improvements, and offer mind-blowing solutions.",
-      "Connected to the OpenAi API, responsed with emojis and funny jokes.",
-    ],
-  },
-  {
     title: "3D Product Website",
     company_name: "Visit Website ",
     github: " | Github Docs",
+    link: "https://3dproduct.adamalrasi.com/",
+    githubLink: "https://github.com/adamalrasi/AdamAi__3D-Product-Website/",
     icon: express,
     iconBg: "#a2d2ff",
     date: "React, TailwindCSS, MySQL, OpenAI",
@@ -162,6 +218,22 @@ export const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "AdamAi Funniest Coding Ai ChatBot",
+    company_name: "Visit Website ",
+    github: " | Github Docs",
+    link: "https://adamai.adamalrasi.com",
+    githubLink:
+      "https://github.com/adamalrasi/AdamAi__Funniest-Coding-Ai-ChatBot",
+    icon: react,
+    iconBg: "#d7f7F5",
+    date: "Tech Stack: OpenAI, JavaScript, Node.js, Express.js, HTML/CSS",
+    points: [
+      "AdamAi is a language model AI developed with advanced technology to understand and generate human-like text. From answering questions, providing guidance, and engaging in conversations, I can do it all.",
+      "Adam Ai can analyze your code, spot potential bugs, suggest improvements, and offer mind-blowing solutions.",
+      "Connected to the OpenAi API, responsed with emojis and funny jokes.",
     ],
   },
 ];
