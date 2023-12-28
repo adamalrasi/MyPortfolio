@@ -11,7 +11,6 @@ import { skills, experiences } from "../constants";
 import { express } from "../assets/icons";
 
 const Home = () => {
-  console.log(experiences);
   return (
     <section className="max-container">
       <h1 className="head-text">
