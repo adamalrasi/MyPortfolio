@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { NavLink } from "react-router-dom";
+import Testimonials from "../components/Testimonials";
 
 import { skills, experiences } from "../constants";
 import { express } from "../assets/icons";
@@ -22,7 +23,7 @@ const Home = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Passionate Software Engineer based in United Kingdom, I have
+          Passionate Software Engineer based in Birmingham, UK. I have
           experience in front-end and back-end development. While I may not be
           the best at everything, I am a fast learner eager to work hard and get
           things done. My ultimate goal is to become a Senior Software Engineer
@@ -127,8 +128,13 @@ const Home = () => {
         </div>
       </div>
 
-      <hr className="border-slate-300" id="Contact" />
-      <div className="cta">
+      <div className="hidden md:block">
+        <Testimonials />
+      </div>
+
+      {/* <hr className="border-slate-300 " id="Contact" /> */}
+      <div className="bg-white p-[0.2rem] rounded-full" id="Contact"></div>
+      <div className="cta ">
         <p className="cta-text">
           Let's make it Happen! <br className="sm:block hidden" /> Build
           Something Amazing!🙌
