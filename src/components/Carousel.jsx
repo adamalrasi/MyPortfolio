@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Carousel = (props) => {
   const slides = props.slides;
   let [current, setCurrent] = useState(0);
+  let [curSlide, setCurSlide] = useState(0);
   let prevSlide = () => {
     if (current === 0) {
       setCurrent(slides.length - 1);
@@ -19,6 +20,11 @@ const Carousel = (props) => {
     }
   };
 
+  useEffect(() => {
+    console.log(current);
+    setCurSlide(current);
+  }, [current]);
+
   function visitLinkedIn() {
     window.open(`https://www.linkedin.com/in/${slides[current].linkedinLink}/`);
   }
@@ -33,7 +39,7 @@ const Carousel = (props) => {
             <div
               key={s.id}
               className={`flex flex-col justify-between transform transition ease-out duration-500 translate-x-[-${
-                current * 100
+                curSlide * 100
               }%]`}
             >
               <div className=" mx-[1.4rem]">
