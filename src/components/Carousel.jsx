@@ -21,7 +21,7 @@ const Carousel = (props) => {
 
   const interval = setInterval(() => {
     nextSlide();
-  }, 5000);
+  }, 10000);
 
   function visitLinkedIn() {
     window.open(`https://www.linkedin.com/in/${slides[current].linkedinLink}/`);
