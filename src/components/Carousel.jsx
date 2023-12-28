@@ -3,32 +3,25 @@ import React, { useState, useEffect } from "react";
 const Carousel = (props) => {
   const slides = props.slides;
   let [current, setCurrent] = useState(0);
-  let [curSlide, setCurSlide] = useState(0);
   let prevSlide = () => {
     if (current === 0) {
-      setCurrent(slides.length - 1);
+      setCurrent(2);
     } else {
       setCurrent(current - 1);
     }
   };
 
   let nextSlide = () => {
-    if (current === slides.length - 1) {
+    if (current === 2) {
       setCurrent(0);
     } else {
       setCurrent(current + 1);
     }
   };
 
-  useEffect(() => {
-    setCurSlide(current);
-  }, [current]);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 2000);
-  }, []);
+  const interval = setInterval(() => {
+    nextSlide();
+  }, 5000);
 
   function visitLinkedIn() {
     window.open(`https://www.linkedin.com/in/${slides[current].linkedinLink}/`);
