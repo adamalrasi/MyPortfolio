@@ -24,9 +24,11 @@ const Carousel = (props) => {
     setCurSlide(current);
   }, [current]);
 
-  const interval = setInterval(() => {
-    nextSlide();
-  }, 5000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 2000);
+  }, []);
 
   function visitLinkedIn() {
     window.open(`https://www.linkedin.com/in/${slides[current].linkedinLink}/`);
@@ -38,19 +40,11 @@ const Carousel = (props) => {
         <div
           className={`max-w-screen-xl px-4 py-8 mx-auto text-center lg:pt-16 lg:pb-2 lg:px-6 flex  `}
         >
-          {/* {current === 0 ? (
-            <div>1</div>
-          ) : current === 1 ? (
-            <div>2</div>
-          ) : (
-            <div>3</div>
-          )} */}
           {slides.map((s) => (
             <div
               key={s.id}
-              className={`flex flex-col justify-between transform transition ease-out duration-500 translate-x-[-${
-                curSlide * 100
-              }%]`}
+              className={`flex flex-col justify-between transform transition ease-out duration-500 `}
+              style={{ transform: `translateX(-${current * 100}%)` }}
             >
               <div className=" mx-[1.4rem]">
                 <svg
