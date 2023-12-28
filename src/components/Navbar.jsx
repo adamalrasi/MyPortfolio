@@ -3,12 +3,14 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <header className="header">
-      <NavLink
-        to="/"
-        className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md px-9"
-      >
-        <p className="blue-gradient_text">ADAM</p>
+    <header className="header mt-1">
+      <NavLink to="/" className="flex justify-center items-center">
+        <div className="w-9 h-9 bg-green-200 rounded-full flex justify-center items-center animate-pulse ">
+          <div className="w-4 h-4 rounded-full bg-green-600 items-center justify-center flex- font-bold "></div>
+        </div>
+        <p className="text-green-400 font-medium ml-2 text-lg">
+          Available for work
+        </p>
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <Link
