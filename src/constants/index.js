@@ -127,7 +127,7 @@ icon: express,
 export const experiences = [
   {
     title: "EduTaskHub - Simplify Coursework",
-    company_name: "Visit Demo",
+    company_name: "Visit Website ",
     github: " | Github Repo",
     link: "https://edutaskhub.azurewebsites.net",
     githubLink: "https://github.com/adamalrasi/edutaskhub",
@@ -142,7 +142,7 @@ export const experiences = [
   },
   {
     title: "Bookmarkd - by readers, for readers",
-    company_name: "Visit Demo",
+    company_name: "Visit Website ",
     github: " | Github Repo",
     link: "https://bookmarkd-ruddy.vercel.app",
     githubLink: "https://github.com/adamalrasi/bookmarkd",
