@@ -4,24 +4,45 @@ const Carousel = (props) => {
   const slides = props.slides;
   let [current, setCurrent] = useState(0);
   let prevSlide = () => {
-    if (current === 0) {
-      setCurrent(2);
-    } else {
-      setCurrent(current - 1);
+    switch (current) {
+      case 0:
+        setCurrent(2);
+        break;
+      case 1:
+        setCurrent(0);
+        break;
+      case 2:
+        setCurrent(1);
+        break;
+      default:
+        setCurrent(0);
+        break;
     }
   };
 
   let nextSlide = () => {
-    if (current === 2) {
-      setCurrent(0);
-    } else {
-      setCurrent(current + 1);
+    switch (current) {
+      case 0:
+        setCurrent(1);
+        break;
+      case 1:
+        setCurrent(2);
+        break;
+      case 2:
+        setCurrent(0);
+        break;
+      default:
+        setCurrent(0);
+        break;
     }
   };
 
-  const interval = setInterval(() => {
-    nextSlide();
-  }, 8000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000);
+    return () => clearInterval(interval);
+  });
 
   function visitLinkedIn() {
     window.open(`https://www.linkedin.com/in/${slides[current].linkedinLink}/`);
