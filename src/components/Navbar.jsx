@@ -40,7 +40,7 @@ const Navbar = () => {
             )
           }
         >
-          <p className="blue-gradient_text">My CV</p>
+          <p className="blue-gradient_text">CV</p>
         </NavLink>
       </nav>
     </header>
