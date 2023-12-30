@@ -128,7 +128,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Testimonials />
       </div>
 
