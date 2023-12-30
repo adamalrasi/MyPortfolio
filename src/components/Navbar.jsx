@@ -36,7 +36,7 @@ const Navbar = () => {
         <NavLink
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/17RvexLtLAPRqkJ64W-rIA4QCr6EfDZgY/view?usp=drive_link"
+              "https://drive.google.com/file/d/1XWACxc_5R--h8W4drVSCGCW-S1_fLaXG/view?usp=sharing"
             )
           }
         >
