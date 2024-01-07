@@ -16,7 +16,7 @@ const Home = () => {
     <section className="max-container">
       <h1 className="head-text">
         👋Hi there, I'm{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
+        <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow">
           Adam
         </span>
       </h1>
