@@ -22,6 +22,15 @@ export default {
       boxShadow: {
         card: "0px 1px 2px 0px rgba(0, 0, 0, 0.05)",
       },
+      keyframes: {
+        gradient: {
+          "0%": {backgroundPosition: "0% 50%"},
+          "100%": {backgroundPosition: "100% 50%"}
+        }
+      },
+      animation: {
+        gradient: "gradient 4s linear infinite"
+      }
     },
   },
   plugins: [],
