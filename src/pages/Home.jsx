@@ -13,8 +13,8 @@ import { skills, experiences } from "../constants";
 const Home = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text flex ml-14">
-        <p className="animate-wave wave-hand w-0 flex flex-row-reverse mt-[-0.4rem] delay-150">👋</p>
+      <h1 className="head-text flex md:ml-14 ml-8">
+        <p className="animate-wave w-0 flex flex-row-reverse md:mt-[-0.4rem] md:delay-150">👋</p>
         Hi there, I'm{" "}
         <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow ml-3">
           Adam
@@ -139,7 +139,7 @@ const Home = () => {
         <p>Let's make it Happen! <br className="sm:block hidden" /></p> 
         <div className="flex">
         <p>Build Something Amazing!</p>
-          <p className="animate-bounce ml-1 mt-[0.2rem]">🙌</p>
+          <p className="md:animate-bounce md:ml-1 md:mt-[0.2rem]">🙌</p>
         </div>
         </div>
         <div className="flex flex-col ">
