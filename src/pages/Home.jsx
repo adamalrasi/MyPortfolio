@@ -135,10 +135,13 @@ const Home = () => {
       {/* <hr className="border-slate-300 " id="Contact" /> */}
       <div className="bg-white p-[0.2rem] rounded-full" id="Contact"></div>
       <div className="cta ">
-        <p className="cta-text">
-          Let's make it Happen! <br className="sm:block hidden" /> Build
-          Something Amazing!🙌
-        </p>
+        <div className="cta-text ">
+        <p>Let's make it Happen! <br className="sm:block hidden" /></p> 
+        <div className="flex">
+        <p>Build Something Amazing!</p>
+          <p className="animate-bounce ml-1 mt-[0.2rem]">🙌</p>
+        </div>
+        </div>
         <div className="flex flex-col ">
           <NavLink
             className="btn"
