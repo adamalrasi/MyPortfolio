@@ -207,3 +207,10 @@ body:has(.card[data-color="green"]:hover) {
   background-size: 1000% 300%;
   background-clip: text;
 }
+
+.wave-hand{
+  animation-name: wavehand;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+}
