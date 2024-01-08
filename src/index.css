@@ -207,3 +207,7 @@ body:has(.card[data-color="green"]:hover) {
   background-size: 1000% 300%;
   background-clip: text;
 }
+
+.wave-hand{
+  /* border: 1px red solid;  */
+}

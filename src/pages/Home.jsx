@@ -9,14 +9,14 @@ import { NavLink } from "react-router-dom";
 import Testimonials from "../components/Testimonials";
 
 import { skills, experiences } from "../constants";
-import { express } from "../assets/icons";
 
 const Home = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">
-        👋Hi there, I'm{" "}
-        <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow">
+      <h1 className="head-text flex ml-14">
+        <p className="animate-wave wave-hand w-0 flex flex-row-reverse mt-[-0.4rem] delay-150">👋</p>
+        Hi there, I'm{" "}
+        <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow ml-3">
           Adam
         </span>
       </h1>
