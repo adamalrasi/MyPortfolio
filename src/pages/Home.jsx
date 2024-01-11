@@ -9,14 +9,14 @@ import { NavLink } from "react-router-dom";
 import Testimonials from "../components/Testimonials";
 
 import { skills, experiences } from "../constants";
-import { express } from "../assets/icons";
 
 const Home = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">
-        👋Hi there, I'm{" "}
-        <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow">
+      <h1 className="head-text flex md:ml-14 ml-8">
+        <p className="animate-wave w-0 flex flex-row-reverse md:mt-[-0.4rem] md:delay-150">👋</p>
+        Hi there, I'm{" "}
+        <span className="hero-gradient-text text-transparent animate-gradient font-semibold drop-shadow ml-3">
           Adam
         </span>
       </h1>
@@ -135,10 +135,13 @@ const Home = () => {
       {/* <hr className="border-slate-300 " id="Contact" /> */}
       <div className="bg-white p-[0.2rem] rounded-full" id="Contact"></div>
       <div className="cta ">
-        <p className="cta-text">
-          Let's make it Happen! <br className="sm:block hidden" /> Build
-          Something Amazing!🙌
-        </p>
+        <div className="cta-text ">
+        <p>Let's make it Happen! <br className="sm:block hidden" /></p> 
+        <div className="flex">
+        <p>Build Something Amazing!</p>
+          <p className="md:animate-bounce md:ml-1 md:mt-[0.2rem]">🙌</p>
+        </div>
+        </div>
         <div className="flex flex-col ">
           <NavLink
             className="btn"
