@@ -37,6 +37,7 @@ const Navbar = () => {
           onClick={() =>
             window.open(
               "https://drive.google.com/file/d/1NHcvaX04fID7KzoqkWW_7x2qQDQ9hnW6/view?usp=sharing"
+              
             )
           }
         >
