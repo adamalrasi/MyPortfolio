@@ -24,8 +24,7 @@ const Home = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Passionate Software Engineer based in Birmingham, UK. I have
-          experience in front-end and back-end development. While I may not be
-          the best at everything, I am a fast learner eager to work hard and get
+          experience in front-end and back-end development. I am a fast learner eager to work hard and get
           things done. My ultimate goal is to become a Senior Software Engineer
           by continuously learning.
         </p>
