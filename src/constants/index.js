@@ -126,7 +126,7 @@ icon: express,
 
 export const experiences = [
   {
-    title: "EduTaskHub - Simplify Coursework",
+    title: "Learnado - Future of Learning, Designed for Today.",
     company_name: "Visit Website ",
     github: " | Github Repo",
     link: "https://edutaskhub.azurewebsites.net",
