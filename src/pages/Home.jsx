@@ -24,9 +24,8 @@ const Home = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Passionate Software Engineer based in Birmingham, UK. I have
-          experience in front-end and back-end development. I am a fast learner eager to work hard and get
-          things done. My ultimate goal is to become a Senior Software Engineer
-          by continuously learning.
+          experience in front-end and back-end development.I am the kind of person who will spend hours debugging code, but I will also spend the same amount of time making funny jokes. I am a fast learner eager to work hard and get
+          things done.
         </p>
       </div>
       <div className="py-10 flex flex-col">
