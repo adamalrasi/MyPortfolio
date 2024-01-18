@@ -23,9 +23,7 @@ const Home = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Passionate Software Engineer based in Birmingham, UK. I have
-          experience in front-end and back-end development. I am the kind of person who will spend hours debugging code, but I will also spend the same amount of time making funny jokes. My ultimate goal is to keep improving & having a Growth Mindset by continuously learning and leading other developers and building and maintaining large-scale web/mobile applications.
-
+        Passionate Software Engineer based in Birmingham, UK. I have experience in front-end and back-end development. My ultimate goal is to keep improving my skills and maintain a growth mindset by continuously learning and leading other developers and building and maintaining large-scale web/mobile applications.
         </p>
       </div>
       <div className="py-10 flex flex-col">
