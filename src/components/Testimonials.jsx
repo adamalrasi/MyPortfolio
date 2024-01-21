@@ -13,16 +13,16 @@ const Testimonials = () => {
       linkedin: "helen-abell",
       linkedinLink: "helen-abell",
     },
-    // {
-    //   id: 1,
-    //   name: "Siyu Duan",
-    //   title: "Architecture Engineer",
-    //   testimonial:
-    //     "Adam is a dynamic and talented individual who consistently brings enthusiasm and innovation to the table. I wholeheartedly recommend Adam for any collaborative project, as he not only excels in his technical capabilities but also adds immeasurable value to the overall team dynamic.",
-    //   image: "/siyu.jpg",
-    //   linkedin: "Siyu-Duan",
-    //   linkedinLink: "siyu-duan-2021",
-    // },
+    {
+      id: 4,
+      name: "Siyu Duan",
+      title: "Architecture Engineer",
+      testimonial:
+        "Adam is a dynamic and talented individual who consistently brings enthusiasm and innovation to the table. I wholeheartedly recommend Adam for any collaborative project, as he not only excels in his technical capabilities but also adds immeasurable value to the overall team dynamic.",
+      image: "/siyu.jpg",
+      linkedin: "Siyu-Duan",
+      linkedinLink: "siyu-duan-2021",
+    },
     {
       id: 1,
       name: "Jade Wilson",
