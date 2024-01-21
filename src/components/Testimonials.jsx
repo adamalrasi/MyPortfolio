@@ -28,8 +28,8 @@ const Testimonials = () => {
       name: "Jade Wilson",
       title: "Microsoft Software Engineer",
       testimonial:
-        "It's been really refreshing watching his journey from where we started one month ago, to where we are now, he has a clear picture of what he needs to do next in order to achieve his goals and, well, he is just getting on with them. Always a pleasure speaking with you Adam..",
-      image: "/jade.jpg",
+        "It's been really refreshing watching his journey from where we started one month ago, to where we are now, he has a clear picture of what he needs to do next in order to achieve his goals and, well, he is just getting on with them.",
+      image: "/jade.PNG",
       linkedin: "Jade-Wilson",
       linkedinLink: "jade-codes",
     },
