@@ -36,7 +36,7 @@ const Testimonials = () => {
     {
       id: 2,
       name: "Jacob Field",
-      title: "Software Developer",
+      title: "SOC Software Developer",
       testimonial:
         "What sets Adam apart is not just his technical expertise but also his positive attitude and ability to boost team morale. Even in tough situations, he maintained a motivating environment, fostering collaboration among the team.",
       image: "/jacob.jpg",
