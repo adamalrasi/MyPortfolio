@@ -125,21 +125,21 @@ icon: express,
 */
 
 export const experiences = [
-  {
-    title: "Learnado - Future of Learning, Today.",
-    company_name: "Visit Website ",
-    github: " | Github Repo",
-    link: "https://edutaskhub.azurewebsites.net",
-    githubLink: "https://github.com/adamalrasi/edutaskhub",
-    icon: react,
-    iconBg: "#d7f7F5",
-    date: "Tech Stack: Azure, C#, ASP.NET, XUnit",
-    points: [
-      "Still in Development...",
-      "EduTaskHub is an educational platform that makes grading easier, promotes collaboration, and saves time. Its open-source system simplifies assignment workflows, allowing teachers to take control of their classrooms. ",
-      "Incorporated CI/CD to streamline the development process and ensure code quality.",
-    ],
-  },
+  // {
+  //   title: "Learnado - Future of Learning, Today.",
+  //   company_name: "Visit Website ",
+  //   github: " | Github Repo",
+  //   link: "https://edutaskhub.azurewebsites.net",
+  //   githubLink: "https://github.com/adamalrasi/edutaskhub",
+  //   icon: react,
+  //   iconBg: "#d7f7F5",
+  //   date: "Tech Stack: Azure, C#, ASP.NET, XUnit",
+  //   points: [
+  //     "Still in Development...",
+  //     "EduTaskHub is an educational platform that makes grading easier, promotes collaboration, and saves time. Its open-source system simplifies assignment workflows, allowing teachers to take control of their classrooms. ",
+  //     "Incorporated CI/CD to streamline the development process and ensure code quality.",
+  //   ],
+  // },
   {
     title: "Bookmarkd - by readers, for readers",
     company_name: "Visit Website ",
